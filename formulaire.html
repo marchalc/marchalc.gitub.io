@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="compte.css" />
+    <title>site / compte</title>
+</head>
+<nav>
+	<p>
+  <a href="NSI.html"> Accueil </a>
+  <a href="exo.html"> Comparateur de formation </a>
+</p>
+<p class=insc>
+  <a href="formulaire.html"> Inscription </a>
+ </p>
+</nav>
+<body>
+	<h1>Formulaire d'inscription </h1>
+
+	<form method=post action="url de la page de traitement">
+		<div>
+			<label for="nom"> Nom</label>
+			<input type="text" id="nom" name="user_name"> 
+			<label for="prenom"> Prenom</label>
+			<input type="text" id="nom" name="user_name">
+		</div>
+		<div>
+
+			<label for="date"> date de naissance </label>
+			<input type="date" id="date" name="user_date">
+		</div>
+		<div>
+			<label for="mail"> Email </label>
+			<input type="email" id="mail" name="user_mail">			
+		</div>
+		<div>
+			<label for="password"> mot de passe </label>
+			<input type="password" id="password" name="user_password">
+		</div>
+
+		<div>
+			<label for="remarque"> demandes particulières</label>
+			<textarea id="remarque"> Ici votre texte </textarea>
+		</div>
+		<div id="bouton">
+        	<button type="submit">S'inscrire</button>
+    	</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="NSI.css" />
+    <script src="exo.js"></script>
+
+    <title>Comparateur</title>
+</head>
+<nav>
+  <p>
+  <a href="NSI.html"> Accueil </a>
+  <a href="exo.html"> Comparateur de formation </a>
+</p>
+<p class=insc>
+  <a href="formulaire.html"> Inscription </a>
+ </p>
+</nav>
+
+<body>
+	<h1> Les formations du numérique</h1>
+
+	<p>
+	<h3> Cliquer sur la formation </h3>
+	
+	
+	<form>
+<section class="bouton">
+  <div>
+    
+    <input  type="button"  class="b" onclick="BUT()" value="BUT réseau et télécom">
+    <input  type="button"  class="b" onclick="licence()" value="Licence informatique">
+    <input  type="button"  class="b" onclick="CPGE()" value="CPGE MP2i">
+
+  </div>
+  </section>
+  <section class="acc">
+    <div> 
+    <label for="forma">formation :</label>
+    <output type="int" id="forma"></output>
+  </div>
+   <div> 
+    <label for="nbeleve">Nombre d'élèves par classe :</label>
+    <output type="int" id="nbeleve">____</output>
+  </div>
+  <div>
+    <label for="hsem">Heures de cours par semaine :</label>
+    <output type="int" id="hsem">____</output> h
+  </div>
+  <div>
+    <label for="d">durée de la formation :</label> 
+    <output type="int" id="d">____</output> ans
+  </div>
+  <div>
+    <label for="stage">stage possible :  </label> 
+    <output type="text" id="stage">____</output>
+  </div>
+  </section>
+
+  </form>
+
+	</p>
+</body>
+</html>
